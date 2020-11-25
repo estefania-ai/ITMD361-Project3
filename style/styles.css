@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Rancho&effect=neon');
+@import url('https://fonts.googleapis.com/css?family=Oswald&effect=shadow-multiple');
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  border-radius: 10px;
+  max-width: 250px; 
+  max-height: 250px;
+}
+
+.am-h1 {
+  position: relative;
+  font-family: 'Oswald', cursive;
+  text-align: center;
+  font-size: 40px;
+  color: rgb(12, 69, 192);
+}
+
+#am-body {
+  text-align: center;
+  background-image: linear-gradient(to right, rgb(0, 162, 255), rgb(39, 133, 139));
+}
+
+
+#idx-h1 {
+  position: relative;
+  font-family: 'Oswald', cursive;
+  text-align: center;
+  font-size: 40px;
+  color: rgb(17, 17, 16);
+}
+
+.dx-h3 {
+  position: relative;
+  font-family: 'Oswald', cursive;
+  text-align: center;
+  font-size: 25px;
+  color: rgb(17, 17, 16);
+}
+
+#idx-body {
+  text-align: center;
+  background-image: linear-gradient(to right, rgb(240, 243, 202), rgb(238, 245, 146));
+}
+
+#res-h1 {
+  position: relative;
+  font-family: 'Oswald', cursive;
+  text-align: center;
+  font-size: 40px;
+  color: rgb(46, 78, 47);
+}
+
+.res-h2 {
+  position: relative;
+  font-family: 'Oswald', cursive;
+  text-align: center;
+  font-size: 30px;
+  color: rgb(46, 78, 47);
+}
+
+#res-body {
+  text-align: center;
+  background-image: linear-gradient(to right, rgb(210, 245, 228), rgb(137, 235, 187));
+}
+
+#navbar {
+  background-image: linear-gradient(to left, rgb(124, 23, 172), rgb(207, 137, 235));
+  overflow: hidden;
+  border: 2px solid rgb(162, 0, 255);
+
+}
+
+#navbar ul{
+  float: left;
+  position: relative;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  left: 50%;
+
+}
+
+#navbar ul li {
+  position: relative;
+  float: left;
+  right: 50%;
+}
+
+#navbar ul li a{
+  display: inline-block;
+  padding: 10px;
+  color: rgb(177, 40, 177);
+  text-align: center;
+  font-size: 100%;
+  margin: 10px;
+  font-family: 'Rancho';
+}
+
+
+
+#navbar #thisone{
+  color: rgb(60, 18, 129);
+  border-bottom: 3px solid rgb(60, 18, 129);
+}
+
+.b{
+  list-style-type: none;
+}
