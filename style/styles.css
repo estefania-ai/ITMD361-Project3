@@ -119,3 +119,24 @@ html, body {
   margin: 0;
   padding: 0;
 }
+
+#wrapper {
+  width: 850px;
+  height: 600px;
+  background-color: #c00;
+  margin:0 auto;
+  overflow: hidden;
+}
+#canvas {
+  width: 700px;
+  height: 500px;
+  background-color: #ccc;
+  margin: 30px auto;
+}
+
+html, body, #map-wrapper #map-canvas {
+  margin: 0;
+  padding: 0;
+  height: 840px;
+  width: 100%;
+}
