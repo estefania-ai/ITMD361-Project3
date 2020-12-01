@@ -123,9 +123,10 @@ html, body {
 #wrapper {
   width: 850px;
   height: 600px;
-  background-color: #c00;
+  background-color: rgba(180, 0, 204, 0.507);
   margin:0 auto;
   overflow: hidden;
+  margin-top: 10px;
 }
 #canvas {
   width: 700px;
