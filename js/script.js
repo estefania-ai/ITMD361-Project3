@@ -1,10 +1,3 @@
-$(function(){
-  $('.bxslider').bxSlider({
-    mode: 'fade',
-    captions: true,
-    slideWidth: 600
-  });
-});
 
 var map;
 function initMap() {
@@ -121,5 +114,6 @@ const favemap = {
     infowindow5.open(map, marker5);
   });
 }
+
 google.maps.event.addDomListener(window, 'load', initMap);
 
