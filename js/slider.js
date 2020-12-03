@@ -1,7 +1,7 @@
 // box slider code was taken from https://github.com/stevenwanderski/bxslider-4/tree/master/src 
 // author: stevenwanderski
 
-$(function(){
+$(function () {
   $('.bxslider').bxSlider({
     mode: 'fade',
     captions: true,

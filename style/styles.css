@@ -4,9 +4,8 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  
   border-radius: 10px;
-  max-width: 250px; 
+  max-width: 250px;
   max-height: 250px;
 }
 
@@ -22,7 +21,6 @@ img {
   text-align: center;
   background-image: linear-gradient(to right, rgb(0, 162, 255), rgb(39, 133, 139));
 }
-
 
 #idx-h1 {
   position: relative;
@@ -70,17 +68,15 @@ img {
   background-image: linear-gradient(to left, rgb(124, 23, 172), rgb(207, 137, 235));
   overflow: hidden;
   border: 2px solid rgb(162, 0, 255);
-
 }
 
-#navbar ul{
+#navbar ul {
   float: left;
   position: relative;
   list-style-type: none;
   margin: 0;
   padding: 0;
   left: 50%;
-
 }
 
 #navbar ul li {
@@ -89,7 +85,7 @@ img {
   right: 50%;
 }
 
-#navbar ul li a{
+#navbar ul li a {
   display: inline-block;
   padding: 10px;
   color: rgb(177, 40, 177);
@@ -99,21 +95,21 @@ img {
   font-family: 'Rancho';
 }
 
-
-
-#navbar #thisone{
+#navbar #thisone {
   color: rgb(60, 18, 129);
   border-bottom: 3px solid rgb(60, 18, 129);
 }
 
-.b{
+.b {
   list-style-type: none;
 }
 
 #map {
   height: 100%;
 }
+
 /* Optional: Makes the sample page fill the window. */
+
 html, body {
   height: 100%;
   margin: 0;
@@ -124,11 +120,12 @@ html, body {
   max-width: 850px;
   height: 600px;
   background-color: rgba(180, 0, 204, 0.507);
-  margin:0 auto;
+  margin: 0 auto;
   overflow: hidden;
   margin-top: 10px;
   position: relative;
 }
+
 #canvas {
   max-width: 700px;
   height: 500px;
@@ -146,15 +143,14 @@ html, body, #map-wrapper #map-canvas {
 }
 
 #div {
-    position: relative;
-    padding-bottom: 56.25%; /* this is 16:9 aspect ratio */
-    padding-top: 25px;
-    height: 0;
-    margin: 0 auto;
-    display:block;
-  }
-  
-
+  position: relative;
+  padding-bottom: 56.25%;
+  /* this is 16:9 aspect ratio */
+  padding-top: 25px;
+  height: 0;
+  margin: 0 auto;
+  display: block;
+}
 
 iframe {
   position: absolute;
@@ -164,5 +160,4 @@ iframe {
   height: 50%;
   margin-left: 25%;
   border: 0;
-
 }
