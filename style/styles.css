@@ -121,25 +121,28 @@ html, body {
 }
 
 #wrapper {
-  width: 850px;
+  max-width: 850px;
   height: 600px;
   background-color: rgba(180, 0, 204, 0.507);
   margin:0 auto;
   overflow: hidden;
   margin-top: 10px;
+  position: relative;
 }
 #canvas {
-  width: 700px;
+  max-width: 700px;
   height: 500px;
   background-color: #ccc;
   margin: 30px auto;
+  position: relative;
 }
 
 html, body, #map-wrapper #map-canvas {
   margin: 0;
   padding: 0;
   height: 840px;
-  width: 100%;
+  max-width: 100%;
+  position: relative;
 }
 
 #div {
